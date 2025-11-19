@@ -234,7 +234,7 @@ class PredictHandler(SimpleHTTPRequestHandler):
 </head>
 <body>
   <div class="topbar">
-    <div class="topbar-title">Housing Classifier API</div>
+    <div class="topbar-title">Melbourne Housing Classifier API</div>
     <div class="topbar-badge">Demo interna · Neural Network</div>
   </div>
 
@@ -247,7 +247,7 @@ class PredictHandler(SimpleHTTPRequestHandler):
         </div>
         <h1>Predicción del segmento de precio de vivienda</h1>
         <p class="subtitle">
-          Este servicio clasifica una propiedad como <strong>Barata</strong>, <strong>Media</strong> o <strong>Cara</strong>
+          Este servicio clasifica una propiedad en la ciudad de <strong>Melbourne</strong>  como <strong>Barata</strong>, <strong>Media</strong> o <strong>Cara</strong>
           en función de sus características físicas y de ubicación.
         </p>
 
